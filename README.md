@@ -7,6 +7,7 @@ notes d'hier soir à mettre au propre
 - transférer les dessins sur github
 - prendre les mesures de l'emplacement dans le coin de la carte-mère
 - trouver un SVG de la pomme Apple, détourer le PCB
+- PCB : mettre tous les composants sous la carte (côté IDC-26 femelle pluggé dans la carte-mère) afin de mettre les easter eggs côté visible du PCB
 - tester sur mon //e qu'un simple fil en parallèle d'une paire Xi/Yj est bien détecté comme une touche et ce en parallèle d'appuis sur le vrai clavier, puis confirmer avec une Arduino que ça marche aussi avec une GPIO en collecteur ouvert
 - compléter la spec en consultant quelques points dans la datasheet stm32f413/423
 - regarder comment FlashFloppy (github) fait la mise à jour USB-OTG avec un câble USB-A vers A
