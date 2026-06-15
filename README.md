@@ -10,7 +10,7 @@ notes d'hier soir à mettre au propre
 - PCB : mettre tous les composants sous la carte (côté IDC-26 femelle pluggé dans la carte-mère) afin de mettre les easter eggs côté visible du PCB
 - tester sur mon //e qu'un simple fil en parallèle d'une paire Xi/Yj est bien détecté comme une touche et ce en parallèle d'appuis sur le vrai clavier, puis confirmer avec une Arduino que ça marche aussi avec une GPIO en collecteur ouvert
 - compléter la spec en consultant quelques points dans la datasheet stm32f413/423
-- regarder comment FlashFloppy (github) fait la mise à jour USB-OTG avec un câble USB-A vers A
+- regarder comment FlashFloppy (github) fait la mise à jour USB-OTG avec un câble USB-A vers A (un seul port OTG sur STM32F413/423, semble identique au STM32F415/435 des Gotek)
 - Compter les GPIO du F423 et s'il y en a assez, prévoir le connecteur SWD et les 2 IDC 2x5 non soudés, avec pinout adapté joystick et souris sérigraphiés « ext.1 (joystick?) » et « ext.2 (souris ?) » (les IDC ne seront pas soudés, c'est juste une provision pour écrire le sw plus tard)
 - prévoir 4 pins pour ces écrans OLED I2C à 3€ (très optionnel)
 - easter egg musical, choisir parmi les idées suivantes :
